@@ -75,7 +75,7 @@ class Sort_Files_By_Type:
         else:
             return False
         
-    def _run(self):
+    def run(self):
         #self.browse_folder()
         self._get_files()
         self._loop_trough_files()
@@ -88,7 +88,7 @@ if __name__ == '__main__':
     soft_files = Sort_Files_By_Type()
     soft_files.browse_folder()
     if soft_files.prompt_user_to_confirm():
-        soft_files._run()
+        soft_files.run()
     else:
         print('Sorting cancelled.')
 
