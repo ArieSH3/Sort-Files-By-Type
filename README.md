@@ -5,16 +5,17 @@ This program takes a directory containing various types of files and sorts them 
 ###Example
 
 **Before Sorting:**
-
+```
 primary_folder/
 ├── document.txt
 ├── script.py
 ├── image.jpg
 ├── data.csv
 ├── presentation.pptx
-
+```
 
 **After Sorting:**
+```
 primary_folder/
 ├── txt/
 │   └── document.txt
@@ -26,6 +27,7 @@ primary_folder/
 │   └── data.csv
 ├── pptx/
     └── presentation.pptx
+```
 
 
 
