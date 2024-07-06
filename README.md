@@ -30,4 +30,6 @@ primary_folder/
 ```
 
 
+## Installation
 
+Just download latest release, unzip and run the .exe file
