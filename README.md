@@ -33,3 +33,7 @@ primary_folder/
 ## Installation
 
 Just download latest release, unzip and run the .exe file
+
+## How To Run
+
+Start the .exe file and choose a folder you want to sort files in. Message popup will ask to confirm the directory path.
