@@ -23,7 +23,6 @@ class Sort_Files_By_Type:
     def _get_file_extension(self, filename):
         self.files_by_type [filename] = \
                             filename.split(".")[-1]
-        #print(self.files_by_type)
     
     def _loop_trough_files(self):
         for file in self.files_by_type:
@@ -76,15 +75,12 @@ class Sort_Files_By_Type:
             return False
         
     def run(self):
-        #self.browse_folder()
         self._get_files()
         self._loop_trough_files()
         self._sort_by_file_extension()
 
 if __name__ == '__main__':
     
-    # path = r'D:\Projects\Python\Sort_Files_By_Type\testing_area'
-    # test = Sort_Files_By_Type(path)
     soft_files = Sort_Files_By_Type()
     soft_files.browse_folder()
     if soft_files.prompt_user_to_confirm():
