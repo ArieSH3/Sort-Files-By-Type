@@ -1,8 +1,8 @@
 # Sort-Files-By-Type
-##File Sorting Process
+## File Sorting Process
 This program takes a directory containing various types of files and sorts them into subdirectories based on their file extensions. For each file type, it creates a new folder named after the extension and moves the corresponding files into these folders.
 
-###Example
+### Example
 
 **Before Sorting:**
 ```
